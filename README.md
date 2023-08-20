@@ -18,17 +18,20 @@ Included:
     + flake8 config just to be sure (setup.cfg)
     + isort profile set to "black"
 - Sample `app/` folder with `tests/`
+- [pre-commit](https://github.com/pre-commit/pre-commit) config
 - [EditorConfig](https://editorconfig.org/)
-- [Coverage config](https://coverage.readthedocs.io/en/6.5.0/config.html)
+- [Coverage](https://coverage.readthedocs.io/en/6.5.0/config.html) config
 - `.gitignore` for common Python related clutter
 
 ## How to start working on a project
 
 - Install Poetry: `pip3 install --user poetry`
+- (Optional) install pre-commit: `pip3 install --user pre-commit`
 - Jump in the project folder
 - Enter Poetry shell: `poetry shell`
 - Install dependencies: `poetry install`
 - Run tox: `tox` (or `tox -p` for parallel)
+- Install pre-commit hooks: `pre-commit install`
 
 ## TODO
 
