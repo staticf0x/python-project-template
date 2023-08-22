@@ -32,7 +32,3 @@ Included:
 - Install dependencies: `poetry install`
 - Run tox: `tox` (or `tox -p` for parallel)
 - Install pre-commit hooks: `pre-commit install`
-
-## TODO
-
-- [ ] Ruff config in pyproject.toml
